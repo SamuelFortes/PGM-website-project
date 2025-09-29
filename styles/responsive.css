@@ -1,0 +1,315 @@
+@media screen and (max-width: 900px){
+    /* Reset para prevenir overflow horizontal */
+    * {
+        max-width: 100%;
+    }
+
+    header .header-menu{
+        display: none;
+    }
+
+    header .btn__menu__mobile{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px){
+    /* estilos da seção hero responsiva */
+    .hero-section .interface{
+        justify-content: flex-start;
+    }
+
+
+    .hero-section .hero-text h1 {
+        margin-top: 80px;
+        font-size: 2.5em;
+        line-height: 65px;
+        display: inline-block;
+    }
+
+    .hero-text h1 span.hero-first-span{
+        font-size: 1.4em;
+    }
+
+    .hero-text h1 span.hero-second-span{
+        font-size: 1.4em;
+    }
+
+    .hero-section .hero-text p{
+        font-size: 25px;
+    }
+
+    .hero-section .hero-btn{
+        top: 500px;
+    }
+
+    /* estilos da seção sobre nós responsiva */
+    section.welcome-section .interface{
+        height: 860px;
+    }
+
+    section.welcome-section .welcome-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.welcome-section .welcome-text h2{
+        font-size: 1.5em;
+        padding: 10px 11px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+
+    section.welcome-section .welcome-text p{
+        margin: 0;
+        font-size: 19px;
+        line-height: 30px;
+        margin-top: 20px;
+        border: 2px solid #E76F51;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    section.welcome-section .welcome-forms{
+        display: none;
+    }
+
+    /* estilos da seção cultos responsiva */
+    section.worship-section .worship-cards{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        gap: 80px;
+    }
+
+    section.worship-section .worship-cards .worship-card{
+        width: 350px;
+        height: 350px;
+    }
+
+    .worship-cards .worship-card .card-decoration{
+        height: 110px;
+        margin-top: 230px;
+        padding-top: 5px;
+    }
+
+    section.worship-section .worship-cards .worship-card h3{
+        margin-left: 110px;
+    }
+
+    .worship-cards .worship-card .card-decoration p{
+        font-size: 2em;
+        line-height: 35px;
+    }
+
+    /* estilos da seção nossa igreja responsiva */
+    section.our-church-section .our-church-title h2{
+        font-size: 2em;
+    }
+
+    section.our-church-section .interface .our-church-content{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .interface .our-church-content .our-church-text h3{
+        text-align: center;
+    }
+
+    .interface .our-church-content .our-church-text ol{
+        margin-left: 25px;
+    }
+
+    /* estilos da seção eventos responsiva */
+    .slider{
+        height: 300px;
+    }
+
+    .slides{
+        height: 300px;
+    }
+
+    .slide img{
+        height: 300px;
+    }
+
+    .slide.first h2{
+        font-size: 3.5em;
+        letter-spacing: 3px;
+    }
+
+    .manual-navigation{
+        margin-top: -30px;
+    }
+
+    .manual-btn{
+        padding: 3px;
+        margin-right: 20px !important;
+    }
+
+    .navigation-auto{
+        margin-top: 260px;
+    }
+
+    .navigation-auto div{
+        padding: 3px;
+        margin-right: 20px !important;
+    }
+
+    /* estilos da seção nossa igreja responsiva - parte 2 */
+    section.our-church-section{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    section.our-church-section .our-church-content-2{
+        flex-direction: column;
+        top: 50px;
+        padding: 0 4%;
+        gap: 30px;
+    }
+
+    section.our-church-section .our-church-content-2 .our-church-text-2{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .our-church-content-2 .our-church-text-2 .our-church-text-card{
+        width: 100%;
+        text-align: center;
+    }
+
+    .our-church-content-2 .our-church-text-3{
+        margin-left: 0;
+        padding: 30px;
+        height: auto;
+        padding-right: 30px;
+    }
+
+    section.our-church-section .our-church-title-2{
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    section.our-church-section .our-church-title-2 h3{
+        padding: 10px 0;
+    }
+
+    /* estilos do rodapé */
+    footer .interface .footer-content{
+        flex-direction: column;
+    }
+
+    footer .interface .footer-content .footer-img{
+        max-width: 150px;
+        height: 150px;
+        margin-left: 30%;
+    }
+
+    footer .interface .footer-content .footer-text-title{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    footer .interface .footer-content .footer-text-1 h4, .footer-text-2 h4{
+        font-size: 1.5em;
+    }
+
+    footer .interface .footer-content .footer-text-1 p span, .footer-text-2 p span{
+        font-size: 1.5em;
+    }
+
+    footer .interface .footer-content .footer-text-1 p, .footer-text-2 p{
+        font-size: 1.2em;
+    }
+
+    footer .interface .icons{
+        margin-top: 10px;
+    }
+
+    footer .interface .footer-content .footer-text-2{
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}
+
+/* Media query para telas muito pequenas */
+@media screen and (max-width: 480px){
+    .hero-section .hero-text h1 {
+        font-size: 2em;
+        line-height: 50px;
+    }
+
+    .hero-text h1 span.hero-first-span{
+        font-size: 1.2em;
+    }
+
+    .hero-text h1 span.hero-second-span{
+        font-size: 1.2em;
+    }
+
+    .hero-section .hero-text p{
+        font-size: 18px;
+    }
+
+    .hero-section .hero-btn{
+        top: 450px;
+    }
+
+    .hero-section .hero-btn button{
+        font-size: 1.5em;
+        padding: 10px 30px;
+    }
+
+    /* Seção eventos para telas muito pequenas */
+    .slider{
+        height: 250px;
+    }
+
+    .slides{
+        height: 250px;
+    }
+
+    .slide img{
+        height: 250px;
+    }
+
+    .slide.first h2{
+        font-size: 2.5em;
+        letter-spacing: 2px;
+    }
+
+    .navigation-auto{
+        margin-top: 210px;
+    }
+
+    /* Ajustes gerais para telas pequenas */
+    section.welcome-section .welcome-text p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    section.worship-section .worship-cards .worship-card{
+        width: 300px;
+        height: 320px;
+    }
+
+    .worship-cards .worship-card .card-decoration{
+        height: 100px;
+        margin-top: 210px;
+    }
+
+    .worship-cards .worship-card .card-decoration p{
+        font-size: 1.6em;
+        line-height: 30px;
+    }
+
+    section.our-church-section .our-church-title h2{
+        font-size: 1.5em;
+    }
+}
