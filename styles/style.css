@@ -7,8 +7,10 @@
     font-family: "Red Hat Display", sans-serif;
 }
 
+/* style.css - Alteração */
+
 body {
-    overflow-x: hidden;
+    /* Removido: overflow-x: hidden; */
 }
 
 .interface {

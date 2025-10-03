@@ -1,9 +1,7 @@
 @media screen and (max-width: 900px){
-    /* Reset para prevenir overflow horizontal */
-    * {
-        max-width: 100%;
-    }
-
+    /* ATENÇÃO: A regra universal * { max-width: 100%; } foi removida! 
+       Ela estava causando problemas de layout ao anular outras larguras. */
+    
     header .header-menu{
         display: none;
     }
@@ -11,9 +9,7 @@
     header .btn__menu__mobile{
         display: block;
     }
-}
 
-@media screen and (max-width: 900px){
     /* estilos da seção hero responsiva */
     .hero-section .interface{
         justify-content: flex-start;
@@ -150,15 +146,20 @@
         margin-right: 20px !important;
     }
 
+    /* CORREÇÃO: Oculta os círculos azuis do carrossel (Navegação Automática) */
     .navigation-auto{
-        margin-top: 260px;
+        display: none;
+        /* As regras de margin-top e .navigation-auto div abaixo são desnecessárias
+           com display: none, mas as mantemos por clareza se você for reabilitar depois */
+        margin-top: 260px; 
     }
 
     .navigation-auto div{
+        display: none; /* Garante que os divs internos sumam também */
         padding: 3px;
         margin-right: 20px !important;
     }
-
+    
     /* estilos da seção nossa igreja responsiva - parte 2 */
     section.our-church-section{
         height: auto;
@@ -284,8 +285,10 @@
         letter-spacing: 2px;
     }
 
+    /* CORREÇÃO: Oculta os círculos azuis do carrossel (Navegação Automática) */
     .navigation-auto{
-        margin-top: 210px;
+        display: none;
+        /* Regra antiga: margin-top: 210px; */
     }
 
     /* Ajustes gerais para telas pequenas */
