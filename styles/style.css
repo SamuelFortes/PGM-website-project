@@ -421,7 +421,7 @@ section.our-church-section .our-church-title-2 h3{
 
 section.our-church-section .our-church-content-2{
   position: relative;
-  top: 240px;
+  top: 210px;
   display: flex;
   padding-left: 4%;
 }
@@ -475,8 +475,9 @@ section.our-church-section .our-church-content-2 .our-church-text-2{
 
 .slider{
   width: 100%;
-  height: 500px;
+  height: 515px;
   overflow: hidden;
+  background-color: #264653; 
 }
 
 .slides{
@@ -496,8 +497,8 @@ section.our-church-section .our-church-content-2 .our-church-text-2{
 
 .slide img{
   width: 100%;
-  height: 500px;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
 }
 
 .manual-navigation{

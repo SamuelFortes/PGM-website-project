@@ -11,6 +11,12 @@
     }
 
     /* estilos da seção hero responsiva */
+    section.hero-section{
+        /* Garante que a seção tenha altura suficiente para mostrar a imagem */
+        min-height: 550px;
+        background-position: center top;
+    }
+
     .hero-section .interface{
         justify-content: flex-start;
     }
@@ -121,11 +127,11 @@
 
     /* estilos da seção eventos responsiva */
     .slider{
-        height: 300px;
+        height: 310px;
     }
 
     .slides{
-        height: 300px;
+        height: 315px;
     }
 
     .slide img{
@@ -190,6 +196,10 @@
         padding-right: 30px;
     }
 
+    section.our-church-section{
+        margin-bottom: 20px;
+    }
+
     section.our-church-section .our-church-title-2{
         flex-direction: column;
         text-align: center;
@@ -209,7 +219,7 @@
     footer .interface .footer-content .footer-img{
         max-width: 150px;
         height: 150px;
-        margin-left: 30%;
+        margin-left: 40%;
     }
 
     footer .interface .footer-content .footer-text-title{
@@ -302,6 +312,10 @@
         height: 320px;
     }
 
+    section.worship-section .worship-cards .worship-card h3{
+        margin-left: 90px;
+    }
+
     .worship-cards .worship-card .card-decoration{
         height: 100px;
         margin-top: 210px;
@@ -312,6 +326,10 @@
         line-height: 30px;
     }
 
+    section.our-church-section{
+        margin-bottom: 20px;
+    }
+    
     section.our-church-section .our-church-title h2{
         font-size: 1.5em;
     }
