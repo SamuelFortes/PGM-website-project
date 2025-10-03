@@ -333,4 +333,10 @@
     section.our-church-section .our-church-title h2{
         font-size: 1.5em;
     }
+
+    footer .interface .footer-content .footer-img{
+        max-width: 150px;
+        height: 150px;
+        margin-left: 28%;
+    }
 }
