@@ -419,9 +419,14 @@ section.our-church-section .our-church-title-2 h3{
 
 section.our-church-section .our-church-content-2{
   position: relative;
-  top: 285px;
+  top: 240px;
   display: flex;
   padding-left: 4%;
+}
+
+section.our-church-section .our-church-content-2 .our-church-section-title{
+  background-color: #2A9D8F;
+  padding: 10px;
 }
 
 section.our-church-section .our-church-content-2 .our-church-text-2{
